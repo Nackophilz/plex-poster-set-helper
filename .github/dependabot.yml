@@ -1,0 +1,7 @@
+version: 2
+updates:
+  # Configuration pour les dépendances Python
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
